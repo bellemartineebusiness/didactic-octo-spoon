@@ -1,26 +1,80 @@
 @import "tailwindcss";
+@import "lenis/dist/lenis.css";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --radius: 0.75rem;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-background: #0a0a0a;
+  --color-foreground: #f0f0f0;
+  --color-card: #0f0f0f;
+  --color-card-foreground: #f0f0f0;
+  --color-popover: #111111;
+  --color-popover-foreground: #f0f0f0;
+  --color-primary: #c2d8c4;
+  --color-primary-foreground: #222222;
+  --color-secondary: #1a1a1a;
+  --color-secondary-foreground: #f0f0f0;
+  --color-muted: #141414;
+  --color-muted-foreground: #777777;
+  --color-accent: #1f1f1f;
+  --color-accent-foreground: #f0f0f0;
+  --color-destructive: #ef4444;
+  --color-destructive-foreground: #ffffff;
+  --color-border: rgb(255 255 255 / 0.08);
+  --color-input: rgb(255 255 255 / 0.08);
+  --color-ring: #c2d8c4;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  html {
+    /* Lenis handles smooth scroll — remove CSS scroll-behavior */
+    scroll-behavior: auto;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* ── Scroll reveal — pure opacity, no movement ────────── */
+.reveal-base {
+  opacity: 0;
+  will-change: opacity, filter;
+}
+
+.reveal-up,
+.reveal-card,
+.reveal-left,
+.reveal-none {
+  transition: opacity 0.6s ease;
+}
+
+/* blur — comes into focus as it appears */
+.reveal-blur {
+  filter: blur(5px);
+  transition:
+    opacity 0.7s ease,
+    filter  0.7s ease;
+}
+
+/* Revealed state */
+.reveal-base.reveal-in {
+  opacity: 1 !important;
+  filter: none !important;
+  transition-delay: inherit;
+}
+
+/* ── Marquee ───────────────────────────────────────────── */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
 }
