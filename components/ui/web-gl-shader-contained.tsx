@@ -40,7 +40,7 @@ export function WebGLShaderContained({ className }: { className?: string }) {
       uniform float yScale;
       uniform float distortion;
       void main() {
-        vec2 p = (gl_FragCoord.xy * 2.0 - resolution) / min(resolution.x, resolution.y);
+        vec2 p = (gl_FragCoord.xy * 2.0 - resolution) / resolution.y;
         float d = length(p) * distortion;
         float rx = p.x * (1.0 + d);
         float gx = p.x;
