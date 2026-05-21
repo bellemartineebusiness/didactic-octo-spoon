@@ -3,19 +3,19 @@ import { RevealWords } from "@/components/ui/reveal-words"
 
 const testimonials = [
   {
-    quote: "Zyniq reducerade vår manuella datainmatning med 87%. Teamet kan nu fokusera på strategi istället för administration.",
+    quote: "87% av vår manuella datainmatning är borta. Teamet jobbar äntligen med grejer som faktiskt spelar roll.",
     name: "Anna Bergström",
     role: "COO, NordTech AB",
     initials: "AB",
   },
   {
-    quote: "Deras AI-modell förutspår kundchurn med 94% noggrannhet. Vi har sparat miljontals kronor sedan implementationen.",
+    quote: "AI-modellen de byggde prickar kundchurn med 94% precision. Vi har sparat miljontals kr sedan vi kopplade på den.",
     name: "Marcus Lindqvist",
     role: "Head of Data, Retailflow",
     initials: "ML",
   },
   {
-    quote: "Onboardingen tog tre dagar. Resultaten kom inom en vecka. Det är vad ett riktigt AI-bolag levererar.",
+    quote: "Tre dagar onboarding. Resultat inom en vecka. Det är så det ska funka.",
     name: "Sofia Ek",
     role: "CTO, Payflow Nordic",
     initials: "SE",
@@ -24,8 +24,8 @@ const testimonials = [
 
 const stats = [
   { value: "2.4M+", label: "API-anrop per dag" },
-  { value: "120+",  label: "Projekt levererade" },
-  { value: "40+",   label: "Enterprise-kunder" },
+  { value: "120+",  label: "Projekt klara" },
+  { value: "40+",   label: "Nöjda kunder" },
   { value: "99.9%", label: "Drifttid SLA" },
 ]
 
@@ -54,9 +54,9 @@ export function Results() {
             <p className="text-[#c2d8c4] text-xs font-semibold tracking-[0.2em] uppercase mb-4">Kundröster</p>
           </Reveal>
           <div className="text-4xl md:text-5xl font-extrabold text-white tracking-tight leading-[1.15] md:leading-[1.08]">
-            <RevealWords text="Vad våra" delay={60} stagger={60} />
+            <RevealWords text="Vad" delay={60} stagger={60} />
             <br />
-            <RevealWords text="kunder säger" delay={210} stagger={60} />
+            <RevealWords text="kunderna säger" delay={210} stagger={60} />
           </div>
         </div>
 

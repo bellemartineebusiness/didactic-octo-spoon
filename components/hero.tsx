@@ -34,7 +34,7 @@ export function Hero() {
               <span className="relative inline-flex h-2 w-2 rounded-full bg-[#c2d8c4]" />
             </span>
             <span className="text-xs text-[#c2d8c4]/80 font-medium tracking-wide">
-              Tillgänglig för nya projekt
+              Tar emot nya kunder
             </span>
           </div>
         </Reveal>
@@ -42,21 +42,21 @@ export function Hero() {
         {/* Headline — word by word, triggered on mount */}
         <h1 className="text-[2.15rem] sm:text-[clamp(2.8rem,8vw,6.5rem)] font-extrabold tracking-tighter text-white leading-[0.97] sm:leading-[0.93] mb-5 sm:mb-7">
           <RevealWords
-            text="Intelligens som"
+            text="AI som gör"
             triggerOnMount
             delay={240}
             stagger={60}
           />
           <br className="hidden sm:block" />
           <RevealWords
-            text="driver"
+            text="jobbet"
             className="text-[#c2d8c4]"
             triggerOnMount
             delay={480}
             stagger={60}
           />{" "}
           <RevealWords
-            text="ditt företag"
+            text="åt dig"
             triggerOnMount
             delay={560}
             stagger={60}
@@ -66,8 +66,8 @@ export function Hero() {
         {/* Subtext — blur fade */}
         <Reveal variant="blur" delay={750} threshold={0}>
           <p className="text-white/50 text-lg md:text-xl max-w-xl mx-auto mb-10 leading-relaxed">
-            Zyniq bygger skräddarsydda AI-lösningar som automatiserar
-            processer, analyserar data och skapar konkurrensfördelar ni kan mäta.
+            Vi bygger AI-lösningar som sparar dig tid, tar hand om tråkiga
+            processer och ger dig faktisk koll på din data.
           </p>
         </Reveal>
 

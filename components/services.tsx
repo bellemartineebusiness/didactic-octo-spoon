@@ -9,7 +9,7 @@ const services = [
       </svg>
     ),
     title: "AI-automation",
-    desc: "Automatisera repetitiva arbetsflöden med skräddarsydda AI-agenter som lär sig och förbättras kontinuerligt.",
+    desc: "Slipp de tråkiga uppgifterna. Vi bygger AI-agenter som sköter jobbet åt dig och blir bättre med tiden.",
     tag: "Populärt",
   },
   {
@@ -22,7 +22,7 @@ const services = [
       </svg>
     ),
     title: "Data & analys",
-    desc: "Förvandla rådata till insikter med avancerade modeller för prediktion, segmentering och realtidsanalys.",
+    desc: "Vi tar din röriga data och gör den begriplig. Du får veta vad som händer och vad som kommer hända.",
     tag: null,
   },
   {
@@ -32,7 +32,7 @@ const services = [
       </svg>
     ),
     title: "Konversations-AI",
-    desc: "Intelligenta chatbottar och kundtjänstlösningar som förstår kontext och levererar precisa svar.",
+    desc: "Chatbotar som faktiskt förstår vad folk frågar. Perfekt för kundtjänst som jobbar dygnet runt.",
     tag: null,
   },
   {
@@ -44,7 +44,7 @@ const services = [
       </svg>
     ),
     title: "ML-infrastruktur",
-    desc: "Skalbar infrastruktur för maskininlärning — från träning till driftsättning och monitorering i produktion.",
+    desc: "All teknik under huven — vi sätter upp, driftsätter och håller koll på dina AI-modeller i produktion.",
     tag: null,
   },
   {
@@ -55,7 +55,7 @@ const services = [
       </svg>
     ),
     title: "Computer Vision",
-    desc: "Bildklassificering, objektdetektering och visuell inspektion för industri, handel och medicinsk diagnostik.",
+    desc: "AI som ser och förstår bilder. Bra för allt från kvalitetskontroll till automatisk igenkänning.",
     tag: null,
   },
   {
@@ -65,7 +65,7 @@ const services = [
       </svg>
     ),
     title: "AI-strategi",
-    desc: "Kartlägg er AI-mognad, identifiera möjligheter och bygg en färdplan som skapar mätbart affärsvärde.",
+    desc: "Vet du inte var du ska börja? Vi hjälper dig lista ut exakt var AI gör störst nytta för just ditt företag.",
     tag: "Nytt",
   },
 ]
@@ -82,12 +82,12 @@ export function Services() {
             </Reveal>
             <Reveal variant="up" delay={80}>
               <h2 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-4 leading-[1.1]">
-                Allt ni behöver<br />för att lyckas med AI
+                Det vi hjälper<br />dig med
               </h2>
             </Reveal>
             <Reveal variant="blur" delay={300}>
               <p className="text-white/40 text-lg leading-relaxed">
-                Från strategi till implementation — vi täcker hela kedjan.
+                Vi tar hand om allt. Du behöver inte förstå AI för att få ut värdet av det.
               </p>
             </Reveal>
           </div>

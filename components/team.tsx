@@ -13,63 +13,63 @@ const members = [
     src: "https://avatars.githubusercontent.com/u/47919550?v=4",
     name: "Meschac Irung",
     role: "Lead AI Engineer",
-    bio: "Specialiserar sig på stora språkmodeller och fine-tuning för enterprise-applikationer.",
+    bio: "Jobbar mest med stora språkmodeller och hur man gör dem riktigt bra för specifika företag.",
     twitter: "https://x.com/MeschacIrung",
   },
   {
     src: "https://avatars.githubusercontent.com/u/31113941?v=4",
     name: "Bernard Ngandu",
     role: "ML Infrastructure",
-    bio: "Bygger skalbar MLOps-infrastruktur och driftsätter modeller i produktionsmiljö.",
+    bio: "Tar hand om allt som krävs för att AI-modeller faktiskt ska funka i verkligheten.",
     twitter: "#",
   },
   {
     src: "https://avatars.githubusercontent.com/u/68236786?v=4",
     name: "Theo Balick",
     role: "Product & Design",
-    bio: "Formger AI-produkter som användare faktiskt förstår och älskar att använda.",
+    bio: "Designar AI-grejer som folk faktiskt förstår och vill använda.",
     twitter: "#",
   },
   {
     src: "https://avatars.githubusercontent.com/u/99137927?v=4",
     name: "Glodie Lukose",
     role: "Data Science Lead",
-    bio: "Driver dataanalys och modellvalidering för kundprojekt inom prediktion och segmentering.",
+    bio: "Gravar ner i data och ser till att modellerna vi bygger stämmer med verkligheten.",
     twitter: "#",
   },
   {
     src: "https://avatars.githubusercontent.com/u/12345678?v=4",
     name: "Sarah Lindgren",
     role: "AI Solutions Architect",
-    bio: "Ritar tekniska lösningsarkitekturer och säkerställer integration med befintliga system.",
+    bio: "Ritar upp hur allt ska hänga ihop och ser till att det funkar med det du redan har.",
     twitter: "#",
   },
   {
     src: "https://avatars.githubusercontent.com/u/23456789?v=4",
     name: "Marcus Chen",
     role: "NLP Specialist",
-    bio: "Expert på naturlig språkbehandling och konversationssystem för nordiska marknader.",
+    bio: "Kan allt om hur AI förstår och pratar svenska. Specialiserad på konversationssystem.",
     twitter: "#",
   },
   {
     src: "https://avatars.githubusercontent.com/u/34567890?v=4",
     name: "Aisha Patel",
     role: "Computer Vision",
-    bio: "Bygger bildanalys- och objektdetekteringslösningar för industri och handel.",
+    bio: "Bygger AI som ser och förstår bilder. Jobbar mycket med industri och e-handel.",
     twitter: "#",
   },
   {
     src: "https://avatars.githubusercontent.com/u/45678901?v=4",
     name: "Carlos Berg",
     role: "AI Ethics & Compliance",
-    bio: "Säkerställer att våra AI-system är rättvisa, transparenta och GDPR-kompatibla.",
+    bio: "Ser till att det vi bygger är etiskt, rättvist och håller sig inom lagen.",
     twitter: "#",
   },
   {
     src: "https://avatars.githubusercontent.com/u/56789012?v=4",
     name: "Emma Svensson",
     role: "Business Development",
-    bio: "Hjälper kunder att identifiera AI-möjligheter och maximera affärsvärdet av varje projekt.",
+    bio: "Hjälper dig lista ut vad AI kan göra för ditt företag och se till att du faktiskt får ut något av det.",
     twitter: "#",
   },
 ]
@@ -86,14 +86,13 @@ export function Team() {
               <p className="text-[#c2d8c4] text-xs font-semibold tracking-[0.2em] uppercase mb-4">Teamet</p>
             </Reveal>
             <div className="text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-4 leading-[1.15] md:leading-[1.08]">
-              <RevealWords text="Människorna" delay={60} stagger={55} />
+              <RevealWords text="Gänget" delay={60} stagger={55} />
               <br />
               <RevealWords text="bakom Zyniq" delay={220} stagger={55} />
             </div>
             <Reveal variant="blur" delay={450}>
               <p className="text-white/40 text-lg leading-relaxed">
-                Erfarna ingenjörer, forskare och designers som brinner för att lösa
-                verkliga problem med hjälp av AI.
+                Vi är ett tight team med bakgrund inom AI, mjukvara och design. Vi gillar svåra problem och kör hårt för våra kunder.
               </p>
             </Reveal>
           </div>

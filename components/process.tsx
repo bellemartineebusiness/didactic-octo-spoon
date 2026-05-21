@@ -6,29 +6,29 @@ const steps = [
   {
     num: "01",
     title: "Kartläggning",
-    desc: "Vi börjar med en djupdykning i era processer, datakällor och mål för att identifiera var AI skapar störst värde.",
+    desc: "Vi pratar igenom hur ditt företag funkar, vad du har för data och vad du vill uppnå. Sedan vet vi vad vi ska bygga.",
   },
   {
     num: "02",
     title: "Prototyp & validering",
-    desc: "Snabb prototyputveckling testad mot verkliga data. Ni ser konkreta resultat inom veckor, inte månader.",
+    desc: "Vi bygger snabbt en prototyp och testar den på riktig data. Du ser om det funkar på riktigt, inte bara i en presentation.",
   },
   {
     num: "03",
     title: "Bygge & integration",
-    desc: "Vi bygger produktionsklara lösningar som integreras sömlöst med era befintliga system och arbetsflöden.",
+    desc: "När prototypen är godkänd bygger vi klart och kopplar ihop allt med dina befintliga system.",
   },
   {
     num: "04",
     title: "Lansering & optimering",
-    desc: "Driftsättning med fullständig monitorering. Vi fortsätter att optimera modeller baserat på reell användning.",
+    desc: "Vi lanserar och håller koll på att allt funkar. Sedan fortsätter vi finslipa baserat på hur det faktiskt används.",
   },
 ]
 
 const kpis = [
-  { value: "4–8 v",  label: "Kickoff till produktion" },
-  { value: "340%",  label: "Genomsnittlig ROI" },
-  { value: "98%",   label: "Levererade i tid & budget" },
+  { value: "4–8 v",  label: "Från start till live" },
+  { value: "340%",  label: "Snittavkastning" },
+  { value: "98%",   label: "Levererat i tid" },
 ]
 
 export function Process() {
@@ -41,13 +41,13 @@ export function Process() {
             <p className="text-[#c2d8c4] text-xs font-semibold tracking-[0.2em] uppercase mb-4">Hur vi arbetar</p>
           </Reveal>
           <div className="text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-4 leading-[1.15] md:leading-[1.08]">
-            <RevealWords text="Från idé till" delay={60} stagger={55} />
+            <RevealWords text="Från snack" delay={60} stagger={55} />
             <br />
-            <RevealWords text="produktion på rekordtid" delay={260} stagger={42} />
+            <RevealWords text="till live på några veckor" delay={260} stagger={42} />
           </div>
           <Reveal variant="blur" delay={500}>
             <p className="text-white/40 text-lg leading-relaxed">
-              Vår beprövade process minimerar risk och maximerar tid till värde.
+              Vi håller det enkelt. Du ser resultat snabbt, inte om ett halvår.
             </p>
           </Reveal>
         </div>

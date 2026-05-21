@@ -46,7 +46,7 @@ export function Footer() {
               </div>
             </div>
             <p className="text-white/28 text-sm leading-relaxed mb-5">
-              AI-lösningar som skapar mätbara resultat för moderna företag.
+              Vi bygger AI som faktiskt funkar.
             </p>
             <div className="flex gap-2.5">
               {[
@@ -94,7 +94,7 @@ export function Footer() {
 
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-3">
           <p className="text-white/20 text-xs">© 2026 Zyniq AB. Alla rättigheter förbehållna.</p>
-          <p className="text-white/20 text-xs">Byggd med precision. Driven av data.</p>
+          <p className="text-white/20 text-xs">Byggt med kärlek och kaffe.</p>
         </div>
       </div>
     </footer>
