@@ -34,7 +34,7 @@ const members = [
     src: "https://avatars.githubusercontent.com/u/99137927?v=4",
     name: "Glodie Lukose",
     role: "Data Science Lead",
-    bio: "Gravar ner i data och ser till att modellerna vi bygger stämmer med verkligheten.",
+    bio: "Analyserar data på djupet och säkerställer att modellerna vi bygger ger resultat i verkligheten.",
     twitter: "#",
   },
   {
@@ -48,7 +48,7 @@ const members = [
     src: "https://avatars.githubusercontent.com/u/23456789?v=4",
     name: "Marcus Chen",
     role: "NLP Specialist",
-    bio: "Kan allt om hur AI förstår och pratar svenska. Specialiserad på konversationssystem.",
+    bio: "Specialist på hur AI förstår och hanterar svenska språket. Bygger konversationssystem som känns naturliga.",
     twitter: "#",
   },
   {
@@ -92,7 +92,7 @@ export function Team() {
             </div>
             <Reveal variant="blur" delay={450}>
               <p className="text-white/40 text-lg leading-relaxed">
-                Vi är ett tight team med bakgrund inom AI, mjukvara och design. Vi gillar svåra problem och kör hårt för våra kunder.
+                Vi är ett dedikerat team med djup erfarenhet inom AI, mjukvara och design. Vi gillar utmaningar och är genuint engagerade i varje kunds framgång.
               </p>
             </Reveal>
           </div>

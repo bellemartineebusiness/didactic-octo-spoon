@@ -34,7 +34,7 @@ export function Hero() {
               <span className="relative inline-flex h-2 w-2 rounded-full bg-[#c2d8c4]" />
             </span>
             <span className="text-xs text-[#c2d8c4]/80 font-medium tracking-wide">
-              Tar emot nya kunder
+              Vi välkomnar nya kunder
             </span>
           </div>
         </Reveal>
@@ -66,8 +66,8 @@ export function Hero() {
         {/* Subtext — blur fade */}
         <Reveal variant="blur" delay={750} threshold={0}>
           <p className="text-white/50 text-lg md:text-xl max-w-xl mx-auto mb-10 leading-relaxed">
-            Vi bygger AI-lösningar som sparar dig tid, tar hand om tråkiga
-            processer och ger dig faktisk koll på din data.
+            Vi bygger AI-lösningar som sparar dig tid, frigör ditt team från
+            repetitivt arbete och ger dig bättre koll på din verksamhet.
           </p>
         </Reveal>
 

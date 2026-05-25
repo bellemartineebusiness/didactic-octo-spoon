@@ -25,13 +25,13 @@ export function CTA() {
           <p className="text-[#c2d8c4] text-xs font-semibold tracking-[0.2em] uppercase mb-6">Kom igång</p>
         </Reveal>
         <div className="text-4xl md:text-[3.5rem] font-extrabold text-white tracking-tight leading-[1.15] md:leading-[1.05] mb-5 md:mb-6">
-          <RevealWords text="Ska vi ta" delay={80} stagger={52} />
+          <RevealWords text="Nyfiken på vad" delay={80} stagger={52} />
           <br />
-          <RevealWords text="ett snack?" delay={290} stagger={52} />
+          <RevealWords text="AI kan göra för dig?" delay={290} stagger={52} />
         </div>
         <Reveal variant="blur" delay={560}>
           <p className="text-white/40 text-lg mb-10 max-w-lg mx-auto leading-relaxed">
-            Vi bokar in ett gratis samtal på 30 min och pratar igenom vad AI faktiskt kan göra för dig. Inga säljsnack, bara ärlighet.
+            Boka ett kostnadsfritt 30-minuterssamtal så pratar vi igenom vad AI kan göra för just din verksamhet. Inga konstigheter, bara en bra konversation.
           </p>
         </Reveal>
         <Reveal variant="up" delay={680}>

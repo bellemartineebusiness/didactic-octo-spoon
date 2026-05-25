@@ -6,12 +6,12 @@ const steps = [
   {
     num: "01",
     title: "Kartläggning",
-    desc: "Vi pratar igenom hur ditt företag funkar, vad du har för data och vad du vill uppnå. Sedan vet vi vad vi ska bygga.",
+    desc: "Vi lär oss hur ditt företag funkar, vad du har för data och vad du vill uppnå. Sedan har vi en gemensam bild av vad vi ska bygga.",
   },
   {
     num: "02",
     title: "Prototyp & validering",
-    desc: "Vi bygger snabbt en prototyp och testar den på riktig data. Du ser om det funkar på riktigt, inte bara i en presentation.",
+    desc: "Vi tar fram en prototyp snabbt och testar den mot riktig data. Du ser konkreta resultat tidigt, inte bara i en presentation.",
   },
   {
     num: "03",
@@ -41,13 +41,13 @@ export function Process() {
             <p className="text-[#c2d8c4] text-xs font-semibold tracking-[0.2em] uppercase mb-4">Hur vi arbetar</p>
           </Reveal>
           <div className="text-4xl md:text-5xl font-extrabold text-white tracking-tight mb-4 leading-[1.15] md:leading-[1.08]">
-            <RevealWords text="Från snack" delay={60} stagger={55} />
+            <RevealWords text="Från idé" delay={60} stagger={55} />
             <br />
             <RevealWords text="till live på några veckor" delay={260} stagger={42} />
           </div>
           <Reveal variant="blur" delay={500}>
             <p className="text-white/40 text-lg leading-relaxed">
-              Vi håller det enkelt. Du ser resultat snabbt, inte om ett halvår.
+              En process som är lätt att följa med i. Du ser resultat snabbt, inte om ett halvår.
             </p>
           </Reveal>
         </div>

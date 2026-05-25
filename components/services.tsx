@@ -9,7 +9,7 @@ const services = [
       </svg>
     ),
     title: "AI-automation",
-    desc: "Slipp de tråkiga uppgifterna. Vi bygger AI-agenter som sköter jobbet åt dig och blir bättre med tiden.",
+    desc: "Låt AI ta hand om det repetitiva. Vi bygger smarta agenter som sköter arbetsflödena åt dig och förbättras hela tiden.",
     tag: "Populärt",
   },
   {
@@ -22,7 +22,7 @@ const services = [
       </svg>
     ),
     title: "Data & analys",
-    desc: "Vi tar din röriga data och gör den begriplig. Du får veta vad som händer och vad som kommer hända.",
+    desc: "Vi hjälper dig förstå vad din data faktiskt berättar. Du får tydliga insikter om vad som händer och vad som är på väg att hända.",
     tag: null,
   },
   {
@@ -32,7 +32,7 @@ const services = [
       </svg>
     ),
     title: "Konversations-AI",
-    desc: "Chatbotar som faktiskt förstår vad folk frågar. Perfekt för kundtjänst som jobbar dygnet runt.",
+    desc: "Smarta konversationsbotar som förstår sammanhang och ger bra svar. Kundtjänst som finns där 24/7, utan att du behöver vara det.",
     tag: null,
   },
   {
@@ -44,7 +44,7 @@ const services = [
       </svg>
     ),
     title: "ML-infrastruktur",
-    desc: "All teknik under huven — vi sätter upp, driftsätter och håller koll på dina AI-modeller i produktion.",
+    desc: "Vi tar hand om hela den tekniska biten: från träning och driftsättning till löpande monitorering i produktion.",
     tag: null,
   },
   {
@@ -55,7 +55,7 @@ const services = [
       </svg>
     ),
     title: "Computer Vision",
-    desc: "AI som ser och förstår bilder. Bra för allt från kvalitetskontroll till automatisk igenkänning.",
+    desc: "Vi bygger system som ser och förstår bilder, perfekt för kvalitetskontroll, igenkänning och visuell inspektion.",
     tag: null,
   },
   {
@@ -65,7 +65,7 @@ const services = [
       </svg>
     ),
     title: "AI-strategi",
-    desc: "Vet du inte var du ska börja? Vi hjälper dig lista ut exakt var AI gör störst nytta för just ditt företag.",
+    desc: "Inte säker på var du ska börja? Vi hjälper dig hitta rätt och sätter ihop en tydlig plan för hur AI skapar värde i din verksamhet.",
     tag: "Nytt",
   },
 ]
@@ -87,7 +87,7 @@ export function Services() {
             </Reveal>
             <Reveal variant="blur" delay={300}>
               <p className="text-white/40 text-lg leading-relaxed">
-                Vi tar hand om allt. Du behöver inte förstå AI för att få ut värdet av det.
+                Vi tar hand om hela resan, från strategi till driftsättning. Du fokuserar på verksamheten, vi fixar tekniken.
               </p>
             </Reveal>
           </div>

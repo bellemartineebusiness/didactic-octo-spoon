@@ -3,19 +3,19 @@ import { RevealWords } from "@/components/ui/reveal-words"
 
 const testimonials = [
   {
-    quote: "87% av vår manuella datainmatning är borta. Teamet jobbar äntligen med grejer som faktiskt spelar roll.",
+    quote: "87% av vår manuella datainmatning är borta. Teamet kan äntligen lägga tiden på det som faktiskt spelar roll.",
     name: "Anna Bergström",
     role: "COO, NordTech AB",
     initials: "AB",
   },
   {
-    quote: "AI-modellen de byggde prickar kundchurn med 94% precision. Vi har sparat miljontals kr sedan vi kopplade på den.",
+    quote: "Deras AI-modell förutspår kundchurn med 94% träffsäkerhet. Vi har sparat miljontals kronor sedan vi satte den i drift.",
     name: "Marcus Lindqvist",
     role: "Head of Data, Retailflow",
     initials: "ML",
   },
   {
-    quote: "Tre dagar onboarding. Resultat inom en vecka. Det är så det ska funka.",
+    quote: "Onboardingen tog tre dagar och resultaten kom inom en vecka. Enkelt, snabbt och utan krångel.",
     name: "Sofia Ek",
     role: "CTO, Payflow Nordic",
     initials: "SE",
@@ -54,9 +54,9 @@ export function Results() {
             <p className="text-[#c2d8c4] text-xs font-semibold tracking-[0.2em] uppercase mb-4">Kundröster</p>
           </Reveal>
           <div className="text-4xl md:text-5xl font-extrabold text-white tracking-tight leading-[1.15] md:leading-[1.08]">
-            <RevealWords text="Vad" delay={60} stagger={60} />
+            <RevealWords text="Vad våra" delay={60} stagger={60} />
             <br />
-            <RevealWords text="kunderna säger" delay={210} stagger={60} />
+            <RevealWords text="kunder berättar" delay={210} stagger={60} />
           </div>
         </div>
 
