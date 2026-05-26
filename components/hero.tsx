@@ -66,8 +66,8 @@ export function Hero() {
         {/* Subtext — blur fade */}
         <Reveal variant="blur" delay={750} threshold={0}>
           <p className="text-white/50 text-lg md:text-xl max-w-xl mx-auto mb-10 leading-relaxed">
-            Vi bygger AI-lösningar som sparar dig tid, frigör ditt team från
-            repetitivt arbete och ger dig bättre koll på din verksamhet.
+            Vi ser till att du och ditt team kan fokusera på det ni faktiskt
+            är bra på. AI tar hand om resten.
           </p>
         </Reveal>
 
